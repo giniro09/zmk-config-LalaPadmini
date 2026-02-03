@@ -133,15 +133,6 @@
 
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        MACRO_LTAP: MACRO_LTAP {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp LCLK>;
-            label = "MACRO_LTAP";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
